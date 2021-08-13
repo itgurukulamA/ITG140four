@@ -1,0 +1,9 @@
+package com.example.demo.ardemo;
+
+public class Arithimaticservices {
+
+	
+	public int add(Arthimatic ar) {
+		return ar.getNumber1()+ar.getNumber2();
+	}
+}

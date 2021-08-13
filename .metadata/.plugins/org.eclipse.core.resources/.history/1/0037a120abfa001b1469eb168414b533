@@ -1,0 +1,14 @@
+log4j.rootLogger=DEBUG,file,console
+
+# properties for console output
+log4j.appender.console=org.apache.log4j.ConsoleAppender
+log4j.appender.console.target=System.out
+log4j.appender.console.layout=org.apache.log4j.PatternLayout
+log4j.appender.console.layout.conversionPattern=%d [%t] %-5p %c - %m%n
+
+# properties for appending in specified file 
+log4j.appender.file=org.apache.log4j.RollingFileAppender
+log4j.appender.file.File=insert.log
+log4j.appender.file.MaxFileSize=12MB
+log4j.appender.file.MaxBackupIndex=10
+log4j.appender.file.layout=org.apache.log4j.PatternLayout

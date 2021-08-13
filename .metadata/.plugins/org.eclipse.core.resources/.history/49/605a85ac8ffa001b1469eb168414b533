@@ -1,0 +1,8 @@
+log4j.rootLogger = DEBUG, FILE, console  
+  
+# Define the file appender  
+log4j.appender.FILE=org.apache.log4j.RoFileAppender 
+log4j.appender.FILE.layout=org.apache.log4j.PatternLayout 
+log4j.appender.FILE=insert.log 
+log4j.appender.LOGFILE.MaxFileSize=50kb 
+log4j.appender.file.layout.ConversionPattern=%d{DATE} %-5p - %m%n

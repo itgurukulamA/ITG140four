@@ -1,0 +1,12 @@
+package com.example.demo.mystudent;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class Mystudentcontroller {
+	@GetMapping("/insertdata")
+	public int insert(int id,String name,int age,String email,int phone) {
+		return 0;
+	}
+}

@@ -1,0 +1,27 @@
+package com.example.demo.Inserter;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+
+@RestController
+public class Studentcontroller {
+	
+	@Autowired	
+	Studentservice ss;
+	
+	@RequestMapping(value = "/greeting", method = {RequestMethod.GET})
+	public String insert(@RequestBody Student st) {
+		int i = ss.insert(st);
+		if(i>0) {
+			return("inserted sucessfully");
+		}
+		else {
+			return("not inserted");
+		}
+	}
+}

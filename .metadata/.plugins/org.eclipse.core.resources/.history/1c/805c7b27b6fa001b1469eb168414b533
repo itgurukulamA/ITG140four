@@ -1,0 +1,19 @@
+package com.example.demo.mystudent;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class Mystudentservices {
+	
+	@Autowired
+	public int insert(Mystudent ms) {
+		int id = ms.getId();
+		int age = ms.getAge();
+		String name = ms.getName();
+		String email = ms.getEmail();
+		int phone = ms.getPhonenumber();
+		
+		
+		
+		return 0;
+	}
+}
