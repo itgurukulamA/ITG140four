@@ -92,4 +92,11 @@ public class Studentservice {
 		int i = jdbcTemplate.queryForObject(sql, new Object[] { sts.getId() }, Integer.class);
 		return i;
 	}
+	
+	public List lister() {
+		String sql = "Select * from itg140";
+		List mylist = jdbcTemplate.query(sql, (resultset,Rownum)-> new Student(resultset.getInt(1),resultset.getString(2),resultset.getInt(3),resultset.getString(4),resultset.getInt(5)));
+		return mylist;
+		
+	}
 }

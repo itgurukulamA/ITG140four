@@ -7,7 +7,7 @@ public class Student {
 	private int phone;
 	private String email;
 
-	public Student(int id, String name, int age, int phone, String email) {
+	public Student(int id, String name, int age, String email, int phone) {
 		super();
 		this.id = id;
 		this.name = name;

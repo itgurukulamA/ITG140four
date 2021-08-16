@@ -1297,3 +1297,302 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact mysql:mysql-c
 2021-08-12 12:05:07,481 [Stop Help Server] INFO  org.eclipse.jetty.server.session - node0 Stopped scavenging
 2021-08-12 12:05:07,492 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@683f09d8{/help,null,STOPPED}
 2021-08-16 14:30:49,518 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-08-16 14:40:25,596 [Worker-12: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-08-16 14:40:27,505 [Worker-12: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Ardemo:0.0.1-SNAPSHOT @ /home/miracle/neweclipse/springboot/demo-1/pom.xml.
+2021-08-16 14:40:29,198 [Worker-12: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jdbc/2.5.3/spring-boot-starter-data-jdbc-2.5.3.pom
+2021-08-16 14:40:29,680 [Worker-12: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jdbc/2.5.3/spring-boot-starter-data-jdbc-2.5.3.pom
+2021-08-16 14:40:29,996 [Worker-12: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jdbc/2.2.3/spring-data-jdbc-2.2.3.pom
+2021-08-16 14:40:30,268 [Worker-12: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jdbc/2.2.3/spring-data-jdbc-2.2.3.pom
+2021-08-16 14:40:30,520 [Worker-12: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-relational-parent/2.2.3/spring-data-relational-parent-2.2.3.pom
+2021-08-16 14:40:30,792 [Worker-12: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-relational-parent/2.2.3/spring-data-relational-parent-2.2.3.pom
+2021-08-16 14:40:31,044 [Worker-12: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-parent/2.5.3/spring-data-parent-2.5.3.pom
+2021-08-16 14:40:31,403 [Worker-12: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-parent/2.5.3/spring-data-parent-2.5.3.pom
+2021-08-16 14:40:31,664 [Worker-12: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/2.5.3/spring-data-build-2.5.3.pom
+2021-08-16 14:40:31,915 [Worker-12: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/2.5.3/spring-data-build-2.5.3.pom
+2021-08-16 14:40:32,175 [Worker-12: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/testcontainers/testcontainers-bom/1.15.3/testcontainers-bom-1.15.3.pom
+2021-08-16 14:40:32,423 [Worker-12: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/testcontainers/testcontainers-bom/1.15.3/testcontainers-bom-1.15.3.pom
+2021-08-16 14:40:32,683 [Worker-12: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.4.3/kotlinx-coroutines-bom-1.4.3.pom
+2021-08-16 14:40:32,932 [Worker-12: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.4.3/kotlinx-coroutines-bom-1.4.3.pom
+2021-08-16 14:40:33,195 [Worker-12: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-relational/2.2.3/spring-data-relational-2.2.3.pom
+2021-08-16 14:40:33,443 [Worker-12: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-relational/2.2.3/spring-data-relational-2.2.3.pom
+2021-08-16 14:40:33,712 [Worker-12: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/2.5.3/spring-data-commons-2.5.3.pom
+2021-08-16 14:40:33,963 [Worker-12: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/2.5.3/spring-data-commons-2.5.3.pom
+2021-08-16 14:40:34,387 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jdbc/2.5.3/spring-boot-starter-data-jdbc-2.5.3.jar
+2021-08-16 14:40:34,656 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-relational/2.2.3/spring-data-relational-2.2.3.jar
+2021-08-16 14:40:34,908 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jdbc/2.2.3/spring-data-jdbc-2.2.3.jar
+2021-08-16 14:40:34,908 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/2.5.3/spring-data-commons-2.5.3.jar
+2021-08-16 14:40:35,008 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jdbc/2.5.3/spring-boot-starter-data-jdbc-2.5.3.jar
+2021-08-16 14:40:36,628 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jdbc/2.2.3/spring-data-jdbc-2.2.3.jar
+2021-08-16 14:40:36,636 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-relational/2.2.3/spring-data-relational-2.2.3.jar
+2021-08-16 14:40:36,895 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/2.5.3/spring-data-commons-2.5.3.jar
+2021-08-16 14:40:37,011 [Worker-12: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Ardemo:0.0.1-SNAPSHOT @ /home/miracle/neweclipse/springboot/demo-1/pom.xml.
+2021-08-16 14:40:37,821 [Worker-12: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springboot_demo-1/src/main/java
+2021-08-16 14:40:37,821 [Worker-12: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springboot_demo-1/src/main/resources
+2021-08-16 14:40:37,824 [Worker-12: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springboot_demo-1/src/main/resources
+2021-08-16 14:40:37,829 [Worker-12: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springboot_demo-1/src/test/java
+2021-08-16 14:40:38,489 [Worker-12: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 12 sec
+2021-08-16 14:40:38,490 [Worker-12: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-08-16 14:40:38,639 [Worker-13: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Ardemo:0.0.1-SNAPSHOT @ /home/miracle/neweclipse/demo-1/pom.xml.
+2021-08-16 14:40:38,960 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 14:40:38,961 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 14:40:38,963 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-08-16 14:40:39,000 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-08-16 14:40:39,002 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 14:40:39,003 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 14:40:39,003 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/miracle/neweclipse/demo-1/src/test/resources
+2021-08-16 14:40:39,504 [Worker-12: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Ardemo:0.0.1-SNAPSHOT @ /home/miracle/neweclipse/demo-1/pom.xml.
+2021-08-16 14:40:39,633 [Worker-12: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Ardemo:0.0.1-SNAPSHOT @ /home/miracle/neweclipse/springboot/demo-1/pom.xml.
+2021-08-16 14:40:39,789 [Worker-12: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo-1/src/main/java
+2021-08-16 14:40:39,789 [Worker-12: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo-1/src/main/resources
+2021-08-16 14:40:39,792 [Worker-12: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo-1/src/main/resources
+2021-08-16 14:40:39,797 [Worker-12: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo-1/src/test/java
+2021-08-16 14:40:39,926 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jdbc/2.5.3/spring-boot-starter-data-jdbc-2.5.3-sources.jar
+2021-08-16 14:40:39,946 [Worker-12: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springboot_demo-1/src/main/java
+2021-08-16 14:40:39,946 [Worker-12: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springboot_demo-1/src/main/resources
+2021-08-16 14:40:39,949 [Worker-12: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /springboot_demo-1/src/main/resources
+2021-08-16 14:40:39,952 [Worker-12: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /springboot_demo-1/src/test/java
+2021-08-16 14:40:40,004 [Worker-12: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2021-08-16 14:40:40,183 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jdbc/2.5.3/spring-boot-starter-data-jdbc-2.5.3-sources.jar
+2021-08-16 14:40:40,184 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-data-jdbc:2.5.3
+2021-08-16 14:40:40,914 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 14:40:40,915 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 14:40:40,918 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-08-16 14:40:40,928 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-08-16 14:40:40,936 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 14:40:40,936 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 14:40:40,937 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/miracle/neweclipse/demo-1/src/test/resources
+2021-08-16 14:40:41,382 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 14:40:41,382 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 14:40:41,382 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-08-16 14:40:41,383 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-08-16 14:40:41,385 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 14:40:41,385 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 14:40:41,385 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/miracle/neweclipse/springboot/demo-1/src/test/resources
+2021-08-16 14:40:41,475 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jdbc/2.2.3/spring-data-jdbc-2.2.3-sources.jar
+2021-08-16 14:40:42,246 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jdbc/2.2.3/spring-data-jdbc-2.2.3-sources.jar
+2021-08-16 14:40:42,247 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-jdbc:2.2.3
+2021-08-16 14:40:43,383 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-relational/2.2.3/spring-data-relational-2.2.3-sources.jar
+2021-08-16 14:40:44,415 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-relational/2.2.3/spring-data-relational-2.2.3-sources.jar
+2021-08-16 14:40:44,417 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-relational:2.2.3
+2021-08-16 14:40:45,400 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/2.5.3/spring-data-commons-2.5.3-sources.jar
+2021-08-16 14:40:46,911 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/2.5.3/spring-data-commons-2.5.3-sources.jar
+2021-08-16 14:40:46,913 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-commons:2.5.3
+2021-08-16 14:40:46,916 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-data-jdbc:2.5.3
+2021-08-16 14:40:46,917 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-jdbc:2.2.3
+2021-08-16 14:40:46,918 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-relational:2.2.3
+2021-08-16 14:40:46,919 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-commons:2.5.3
+2021-08-16 14:40:46,920 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-data-jdbc:2.5.3
+2021-08-16 14:40:46,921 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-jdbc:2.2.3
+2021-08-16 14:40:46,923 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-relational:2.2.3
+2021-08-16 14:40:46,924 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-commons:2.5.3
+2021-08-16 14:40:46,925 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-data-jdbc:2.5.3
+2021-08-16 14:40:46,926 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-jdbc:2.2.3
+2021-08-16 14:40:46,927 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-relational:2.2.3
+2021-08-16 14:40:46,928 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-commons:2.5.3
+2021-08-16 14:40:46,929 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-data-jdbc:2.5.3
+2021-08-16 14:40:46,930 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-jdbc:2.2.3
+2021-08-16 14:40:46,931 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-relational:2.2.3
+2021-08-16 14:40:46,932 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-commons:2.5.3
+2021-08-16 14:40:46,934 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-data-jdbc:2.5.3
+2021-08-16 14:40:46,935 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-jdbc:2.2.3
+2021-08-16 14:40:46,936 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-relational:2.2.3
+2021-08-16 14:40:46,937 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-commons:2.5.3
+2021-08-16 14:40:46,938 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-data-jdbc:2.5.3
+2021-08-16 14:40:46,939 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-jdbc:2.2.3
+2021-08-16 14:40:46,940 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-relational:2.2.3
+2021-08-16 14:40:46,941 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-commons:2.5.3
+2021-08-16 14:40:47,193 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 14:40:47,193 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 14:40:47,193 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-08-16 14:40:47,193 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-08-16 14:40:47,194 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 14:40:47,194 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 14:40:47,194 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/miracle/neweclipse/demo-1/src/test/resources
+2021-08-16 14:40:47,211 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 14:40:47,211 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 14:40:47,211 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-08-16 14:40:47,211 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-08-16 14:40:47,212 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 14:40:47,212 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 14:40:47,212 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/miracle/neweclipse/springboot/demo-1/src/test/resources
+2021-08-16 14:41:54,133 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-08-16 15:23:44,229 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 15:23:44,230 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 15:23:44,233 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-08-16 15:23:44,243 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-08-16 15:23:44,247 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 15:23:44,247 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 15:23:44,247 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/miracle/neweclipse/demo-1/src/test/resources
+2021-08-16 15:23:44,665 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 15:23:44,665 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 15:23:44,666 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-08-16 15:23:44,666 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-08-16 15:23:44,669 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 15:23:44,669 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 15:23:44,669 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/miracle/neweclipse/springboot/demo-1/src/test/resources
+2021-08-16 15:24:11,928 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 15:24:11,928 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 15:24:11,930 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-08-16 15:24:11,930 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-08-16 15:24:11,932 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 15:24:11,932 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 15:24:11,932 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/miracle/neweclipse/demo-1/src/test/resources
+2021-08-16 15:24:22,708 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 15:24:22,708 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 15:24:22,708 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-08-16 15:24:22,709 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-08-16 15:24:22,710 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 15:24:22,710 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 15:24:22,710 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/miracle/neweclipse/demo-1/src/test/resources
+2021-08-16 15:25:20,018 [Worker-7: Launching Executing clean in _home_miracle_neweclipse_demo-1] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/miracle/neweclipse/demo-1
+2021-08-16 15:25:20,018 [Worker-7: Launching Executing clean in _home_miracle_neweclipse_demo-1] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2021-08-16 15:25:33,184 [Worker-23: Launching Executing install in _home_miracle_neweclipse_demo-1] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/miracle/neweclipse/demo-1
+2021-08-16 15:25:33,184 [Worker-23: Launching Executing install in _home_miracle_neweclipse_demo-1] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-08-16 15:56:18,758 [Worker-30: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 15:56:18,758 [Worker-30: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 15:56:18,759 [Worker-30: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-08-16 15:56:18,775 [Worker-30: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-08-16 15:56:18,776 [Worker-30: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 15:56:18,779 [Worker-30: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 15:56:18,779 [Worker-30: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/miracle/neweclipse/demo-1/src/test/resources
+2021-08-16 15:57:16,240 [Worker-29: Launching Executing generate-sources in _home_miracle_neweclipse_demo-1] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/miracle/neweclipse/demo-1
+2021-08-16 15:57:16,240 [Worker-29: Launching Executing generate-sources in _home_miracle_neweclipse_demo-1] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B generate-sources
+2021-08-16 15:57:25,689 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-08-16 15:57:34,857 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-08-16 15:57:51,768 [Worker-34: Launching demo-1] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/miracle/neweclipse/demo-1
+2021-08-16 15:57:51,768 [Worker-34: Launching demo-1] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B 
+2021-08-16 16:04:06,710 [Worker-25: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 16:04:06,710 [Worker-25: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 16:04:06,710 [Worker-25: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-08-16 16:04:06,711 [Worker-25: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-08-16 16:04:06,713 [Worker-25: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 16:04:06,713 [Worker-25: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 16:04:06,713 [Worker-25: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/miracle/neweclipse/demo-1/src/test/resources
+2021-08-16 16:32:12,648 [Worker-48: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 16:32:12,663 [Worker-48: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 16:32:12,663 [Worker-48: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-08-16 16:32:12,675 [Worker-48: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-08-16 16:32:12,678 [Worker-48: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 16:32:12,679 [Worker-48: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 16:32:12,679 [Worker-48: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/miracle/neweclipse/demo-1/src/test/resources
+2021-08-16 16:48:57,419 [Worker-43: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 16:48:57,419 [Worker-43: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 16:48:57,419 [Worker-43: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-08-16 16:48:57,424 [Worker-43: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-08-16 16:48:57,426 [Worker-43: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 16:48:57,426 [Worker-43: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 16:48:57,426 [Worker-43: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/miracle/neweclipse/demo-1/src/test/resources
+2021-08-16 16:56:23,704 [Worker-62: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 16:56:23,730 [Worker-62: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 16:56:23,731 [Worker-62: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-08-16 16:56:23,749 [Worker-62: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-08-16 16:56:23,751 [Worker-62: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 16:56:23,751 [Worker-62: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 16:56:23,751 [Worker-62: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/miracle/neweclipse/demo-1/src/test/resources
+2021-08-16 22:22:59,151 [Worker-115: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 22:22:59,203 [Worker-115: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 22:22:59,222 [Worker-115: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-08-16 22:23:00,470 [Worker-115: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-08-16 22:23:00,474 [Worker-115: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 22:23:00,474 [Worker-115: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 22:23:00,475 [Worker-115: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/miracle/neweclipse/demo-1/src/test/resources
+2021-08-16 22:24:59,141 [Worker-110: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 22:24:59,157 [Worker-110: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 22:24:59,157 [Worker-110: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-08-16 22:24:59,494 [Worker-110: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-08-16 22:24:59,497 [Worker-110: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 22:24:59,497 [Worker-110: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 22:24:59,497 [Worker-110: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/miracle/neweclipse/demo-1/src/test/resources
+2021-08-16 22:30:10,462 [Worker-104: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 22:30:10,469 [Worker-104: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 22:30:10,470 [Worker-104: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-08-16 22:30:10,596 [Worker-104: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-08-16 22:30:10,598 [Worker-104: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 22:30:10,599 [Worker-104: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 22:30:10,599 [Worker-104: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/miracle/neweclipse/demo-1/src/test/resources
+2021-08-16 22:31:28,135 [Worker-121: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 22:31:28,136 [Worker-121: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 22:31:28,136 [Worker-121: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-08-16 22:31:28,146 [Worker-121: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-08-16 22:31:28,149 [Worker-121: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 22:31:28,149 [Worker-121: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 22:31:28,149 [Worker-121: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/miracle/neweclipse/demo-1/src/test/resources
+2021-08-16 22:34:48,629 [Worker-121: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-08-16 22:34:51,958 [Worker-121: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Ardemo:0.0.1-SNAPSHOT @ /home/miracle/neweclipse/demo-1/pom.xml.
+2021-08-16 22:34:54,387 [Worker-121: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo-1/src/main/java
+2021-08-16 22:34:54,387 [Worker-121: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo-1/src/main/resources
+2021-08-16 22:34:54,388 [Worker-121: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo-1/src/main/resources
+2021-08-16 22:34:54,388 [Worker-121: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo-1/src/test/java
+2021-08-16 22:34:55,274 [Worker-121: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 6 sec
+2021-08-16 22:35:10,236 [Worker-132: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 22:35:10,236 [Worker-132: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 22:35:10,241 [Worker-132: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-08-16 22:35:10,242 [Worker-132: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-08-16 22:35:10,246 [Worker-132: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 22:35:10,246 [Worker-132: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 22:35:10,246 [Worker-132: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/miracle/neweclipse/demo-1/src/test/resources
+2021-08-16 22:35:19,539 [Worker-130: Launching Executing clean in _home_miracle_neweclipse_demo-1] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/miracle/neweclipse/demo-1
+2021-08-16 22:35:19,539 [Worker-130: Launching Executing clean in _home_miracle_neweclipse_demo-1] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2021-08-16 22:35:29,960 [Worker-127: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 22:35:29,960 [Worker-127: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 22:35:29,960 [Worker-127: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-08-16 22:35:29,961 [Worker-127: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-08-16 22:35:29,962 [Worker-127: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 22:35:29,962 [Worker-127: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 22:35:29,962 [Worker-127: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/miracle/neweclipse/demo-1/src/test/resources
+2021-08-16 22:35:42,103 [Worker-126: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-08-16 22:35:42,387 [Worker-126: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Ardemo:0.0.1-SNAPSHOT @ /home/miracle/neweclipse/demo-1/pom.xml.
+2021-08-16 22:35:42,806 [Worker-126: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo-1/src/main/java
+2021-08-16 22:35:42,806 [Worker-126: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo-1/src/main/resources
+2021-08-16 22:35:42,806 [Worker-126: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo-1/src/main/resources
+2021-08-16 22:35:42,806 [Worker-126: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo-1/src/test/java
+2021-08-16 22:35:42,891 [Worker-126: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2021-08-16 22:36:07,960 [Worker-131: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 22:36:07,960 [Worker-131: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 22:36:07,960 [Worker-131: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-08-16 22:36:07,960 [Worker-131: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-08-16 22:36:07,962 [Worker-131: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 22:36:07,962 [Worker-131: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 22:36:07,962 [Worker-131: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/miracle/neweclipse/demo-1/src/test/resources
+2021-08-16 22:36:50,453 [Worker-128: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 22:36:50,453 [Worker-128: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 22:36:50,454 [Worker-128: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-08-16 22:36:50,551 [Worker-128: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-08-16 22:36:50,554 [Worker-128: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 22:36:50,554 [Worker-128: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 22:36:50,554 [Worker-128: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/miracle/neweclipse/demo-1/src/test/resources
+2021-08-16 22:38:26,731 [Worker-133: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 22:38:26,731 [Worker-133: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 22:38:26,731 [Worker-133: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-08-16 22:38:26,810 [Worker-133: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-08-16 22:38:26,812 [Worker-133: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 22:38:26,812 [Worker-133: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 22:38:26,812 [Worker-133: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/miracle/neweclipse/demo-1/src/test/resources
+2021-08-16 22:38:58,391 [Worker-123: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 22:38:58,391 [Worker-123: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 22:38:58,391 [Worker-123: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-08-16 22:38:58,408 [Worker-123: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-08-16 22:38:58,410 [Worker-123: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 22:38:58,410 [Worker-123: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 22:38:58,410 [Worker-123: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/miracle/neweclipse/demo-1/src/test/resources
+2021-08-16 22:39:45,856 [Worker-133: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 22:39:45,856 [Worker-133: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 22:39:45,856 [Worker-133: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-08-16 22:39:45,880 [Worker-133: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-08-16 22:39:45,883 [Worker-133: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 22:39:45,883 [Worker-133: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 22:39:45,883 [Worker-133: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/miracle/neweclipse/demo-1/src/test/resources
+2021-08-16 22:40:11,677 [Worker-129: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 22:40:11,677 [Worker-129: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 22:40:11,677 [Worker-129: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-08-16 22:40:11,717 [Worker-129: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-08-16 22:40:11,758 [Worker-129: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 22:40:11,758 [Worker-129: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 22:40:11,758 [Worker-129: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/miracle/neweclipse/demo-1/src/test/resources
+2021-08-16 22:40:33,407 [Worker-128: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 22:40:33,407 [Worker-128: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 22:40:33,407 [Worker-128: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-08-16 22:40:33,446 [Worker-128: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-08-16 22:40:33,447 [Worker-128: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-16 22:40:33,447 [Worker-128: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-16 22:40:33,448 [Worker-128: Launching demo-1 - Demo1Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/miracle/neweclipse/demo-1/src/test/resources

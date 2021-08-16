@@ -1,5 +1,6 @@
 package com.example.demo.Inserter;
 
+import java.util.List;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,12 +23,18 @@ public class Studentcontroller {
 	
 	@RequestMapping("/dataupdate")
 	public String myupdate(@RequestBody Student st) {
-		String i = ss.insert(st);
+		String i = ss.myupdate(st);
 		return(i);
 	}
-	@RequestMapping("/dataparam")
+	@RequestMapping("/datacount")
 	public Map<String, String> insertparam(@RequestBody Student st) { 
 		Map<String, String> i =ss.insertItems(st);
+		return(i);
+	}
+	
+	@RequestMapping("/getdata")
+	public List lister() { 
+		List i =ss.lister();
 		return(i);
 	}
 	
