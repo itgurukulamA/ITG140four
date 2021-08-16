@@ -1,0 +1,17 @@
+08-12-2021 22:11:59 DEBUG o.s.jdbc.datasource.DataSourceUtils (115) : Fetching JDBC Connection from DataSource
+08-12-2021 22:11:59 DEBUG o.s.jdbc.datasource.DataSourceUtils (115) : Fetching JDBC Connection from DataSource
+08-12-2021 22:12:00 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext (591) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+08-12-2021 22:12:00 ERROR o.s.b.d.LoggingFailureAnalysisReporter (40) : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
