@@ -1,5 +1,10 @@
 package com.example.demo.crud;
 
+import java.util.List;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
@@ -37,5 +42,51 @@ public class crudService {
     		  return "not deleted";
     	  }
       }
+      public List getAll() {
+    	  Map map = null;
+  		  List obj = new ArrayList();
+  	      List<Map<String, Object>> obj1 = new ArrayList<Map<String, Object>>();
+  		  String sql = "select * from employee";
+
+  		try {
+  			obj1 = jdbcTemplate.queryForList(sql);
+
+  			for (Map<String, Object> row : obj1) {
+  				map = new HashMap();
+  				map.put("id", row.get("id"));
+  				map.put("name", row.get("name"));
+  				map.put("desigination", row.get("desigination"));
+  				map.put("salary", row.get("salary"));
+  				obj.add(map);
+  			}
+
+  		} catch (Exception e) {
+  			map.put("error", "Error occured");
+
+  		}
+  		
+  		return obj;
+      }
+      public List get(int id) {
+    	  Map map1 = null;
+    	  List li = new ArrayList();
+    	  List<Map<String, Object>> li1 = new ArrayList<Map<String, Object>>();
+    	  String sql1 = "select * from employee where id = ?";
+    	  
+    	  li1 = jdbcTemplate.queryForList(sql1,id);
+    	  
+    	  for(Map<String, Object> ob : li1) {
+    		  map1 = new HashMap();
+    		  map1.put("id", ob.get("id"));
+    		  map1.put("name", ob.get("name"));
+    		  map1.put("desigination", ob.get("desigination"));
+    		  map1.put("salary", ob.get("salary"));
+    		  li.add(map1);
+    	  }
+		return li;
+    	  
+    	  
+      }
+     
        
 }

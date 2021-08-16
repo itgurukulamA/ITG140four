@@ -1,6 +1,9 @@
 package com.example.demo.crud;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -23,4 +26,12 @@ public class crudController {
     public String delete(@RequestBody crud cd) {
 	return cs.delete(cd);
 }
+    @GetMapping("/select")
+    public List getAll() {
+    	return cs.getAll();
+    }
+    @GetMapping("/get")
+    public List get() {
+    	return cs.get(203);
+    }
 }
