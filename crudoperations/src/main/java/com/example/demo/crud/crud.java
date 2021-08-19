@@ -1,5 +1,7 @@
 package com.example.demo.crud;
 
+import java.util.List;
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -33,6 +35,10 @@ public class crud {
 	}
 	public void setSalary(int salary) {
 		this.salary = salary;
+	}
+	public List get(int i, String string) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
 }

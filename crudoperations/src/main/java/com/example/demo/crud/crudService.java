@@ -84,9 +84,7 @@ public class crudService {
     		  li.add(map1);
     	  }
 		return li;
-    	  
-    	  
+    	
       }
-     
        
 }
