@@ -1,0 +1,53 @@
+package com.example.demo.Inserter;
+
+import java.util.HashMap;
+import java.util.*;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataIntegrityViolationException;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
+import org.springframework.stereotype.Service;
+
+@Service
+public class Studentservice {
+
+	@Autowired
+	JdbcTemplate jdbcTemplate;
+	
+	@Autowired
+	private NamedParameterJdbcTemplate npjt;
+	
+	public String insertp() {
+		Map<String,String> data=new HashMap<String,String>;
+	}
+
+	public String insert(Student sts) {
+		String sql = "insert into itg140 values(?,?,?,?,?)";
+		int id = sts.getId();
+		int age = sts.getAge();
+		String name = sts.getName();
+		String email = sts.getEmail();
+		int phone = sts.getPhonenumber();
+		// List<Map<String, Object>> search = jdbcTemplate.queryForList("select count(*)
+		// from itg140 where id = ?",id);
+		// System.out.println(search);
+		try {
+			int i = jdbcTemplate.update(sql, id, name, age, email, phone);
+			if(i>0) {
+				return("Inserted Sucess");
+			}
+		}
+		catch(DataIntegrityViolationException e){
+			return("Duplicate data exixts");
+		}
+		return "null";
+	}
+	
+	public int counter(Student sts) {
+		String sql = "select count(*) from itg140 where id = ?";
+		@SuppressWarnings("deprecation")
+		int i=jdbcTemplate.queryForObject(sql,new Object[] {sts.getId()},Integer.class);
+		return i ;
+	}
+}
