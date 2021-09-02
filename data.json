@@ -1,0 +1,18 @@
+{
+    "HRS":[
+        {"id":1, "Name":"Surya","type":"HR","under":[11,12,13]},
+        {"id":2, "Name":"Saik","type":"HR","under":[11,12,13]},
+        {"id":3, "Name":"Rajesh","type":"HR","under":[11,12,13]}
+    ],
+    "TLS":[
+        {"id":11, "Name":"Surya","type":"TL","under":[111,121,131]},
+        {"id":12, "Name":"Saik","type":"TL","under":[111,121,131]},
+        {"id":13, "Name":"Rajesh","type":"TL","under":[111,121,131]}
+    ],
+    "EMPS":[
+        {"id":111, "Name":"Surya","type":"EM"},
+        {"id":121, "Name":"Saik","type":"EM"},
+        {"id":131, "Name":"Rajesh","type":"EM"}
+    ]
+
+}
