@@ -1,0 +1,27 @@
+.heads {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigator {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(8, 126, 252);
+    border-radius: 30px;
+}
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #008bf5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.demo-container {
+    border: 1px solid var(--surface-d);
+}

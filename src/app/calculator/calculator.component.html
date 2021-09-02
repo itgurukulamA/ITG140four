@@ -1,0 +1,44 @@
+<div class=body>
+    <h3>CALCULATOR</h3>
+    <div class="data">
+
+        <h5>Expresion <span>{{expr}}</span></h5>
+
+        <table class="center">
+            <tr>
+                <th><button class="button1" (click)="adder('1')">1</button></th>
+                <th><button class="button1" (click)="adder('2')">2</button></th>
+                <th><button class="button1" (click)="adder('3')">3</button></th>
+                <th><button class="button1" (click)="adder('+')">+</button></th>
+            </tr>
+            <tr>
+                <th><button class="button1" (click)="adder('4')">4</button></th>
+                <th><button class="button1" (click)="adder('5')">5</button></th>
+                <th><button class="button1" (click)="adder('6')">6</button></th>
+                <th><button class="button1" (click)="adder('-')">-</button></th>
+            </tr>
+            <tr>
+                <th><button class="button1" (click)="adder('7')">7</button></th>
+                <th><button class="button1" (click)="adder('8')">8</button></th>
+                <th><button class="button1" (click)="adder('9')">9</button></th>
+                <th><button class="button1" (click)="adder('*')">*</button></th>
+            </tr>
+            <tr>
+                <th><button class="button1" (click)="adder('.')">.</button></th>
+                <th><button class="button1" (click)="adder('0')">0</button></th>
+                <th><button class="button1" (click)="adder('/')">/</button></th>
+                <th><button class="button1" (click)="adder('')">C</button></th>
+            </tr>
+            <tr>
+                <th><button class="button1" (click)="adder('^')">^</button></th>
+                <th><button class="button1" ></button></th>
+                <th><button class="button1" ></button></th>
+                <th><button class="button1"  (click)="eval()"style="background-color: rgb(5, 255, 117);width: fitcontent ;height: 50px;border-radius: 30px;font-size: large;">=</button></th>
+            </tr>
+        </table>
+        <h3>Result</h3><span>
+            <h3>{{result}}</h3>
+        </span>
+
+    </div>
+</div>
