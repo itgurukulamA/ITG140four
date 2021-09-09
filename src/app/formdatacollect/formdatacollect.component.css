@@ -1,0 +1,10 @@
+.p-fluid{
+    border: 20px;
+    font-size: large;
+    display: grid;
+    grid-template-columns: 300px 300px;
+}
+
+.validres{
+    font-size: smaller;
+}
