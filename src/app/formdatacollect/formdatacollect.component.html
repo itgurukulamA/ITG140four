@@ -1,1 +1,34 @@
-<p>formdatacollect works!</p>
+<h1>Welcome to Registration</h1>
+
+<div class="p-fluid" >
+    <div class="p-field">
+        <label for="firstname1">E-mail &nbsp;</label>
+        <input id="email" [(ngModel)]="email"  type="text" pInputText placeholder="example@email.com">
+    </div>
+    <div>
+        <span  *ngIf="checkEmail()"  style="color:green" class = "validres">
+             valid Email
+        </span>
+        <span  *ngIf="!checkEmail()"  style="color:red" class = "validres">
+            In valid Email
+       </span>
+    </div>
+</div>
+<div>
+    &nbsp;
+</div>
+<div class="p-fluid" ng-controller="name">
+    <div class="p-field">
+        <label for="password">Password &nbsp;</label>
+        <input id="password" [(ngModel)]="password"  type="password" pInputText >
+    </div>
+    <div>
+        <span  *ngIf="checkpass()"  style="color:green" class = "validres">
+             valid password
+        </span>
+        <span  *ngIf="!checkpass()"  style="color:red" class = "validres">
+            In valid password
+       </span>
+    </div>
+</div>
+    
